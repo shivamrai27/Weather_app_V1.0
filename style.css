@@ -92,6 +92,18 @@ form button:active {
 
 }
 
+/* For error handling css */
+#weather-data {
+    display: none;
+}
+
+#error {
+    padding: 2rem;
+    font-weight: 500;
+    color: rgb(239, 63, 63);
+    display: none;
+}
+
 /* @media(min-width: 380px) {
     .main-container {
         display: flex;
