@@ -25,7 +25,7 @@ async function getWeatherData(cityValue) {
             `${Math.round(data.wind.speed)} m/s`
         ]
 
-        weatherDataEl.querySelector(".icon").innerHTML = `<img src="http://openweathermap.org/img/wn/${icon}.png" alt="icon">`
+     weatherDataEl.querySelector(".icon").innerHTML = `<img src="http://openweathermap.org/img/wn/${icon}.png" alt="icon">`
 
         // weatherDataEl.querySelector('.detailes').innerHTML = details
         //     .map((detail) => `<section>${detail}</section>`)
